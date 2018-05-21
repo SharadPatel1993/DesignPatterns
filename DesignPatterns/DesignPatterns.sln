@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1D37DF6B-C7CD-4BFC-B8DE-9500B5C311E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{91F3D187-AC17-49ED-B017-D2A85643DB16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{CB7B84F7-EF9C-4192-ACD4-79AAF6FDADB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{5C050BC9-313F-45BF-8D8F-DECF0E91509F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +19,13 @@ Global
 		{1D37DF6B-C7CD-4BFC-B8DE-9500B5C311E4}.Debug|x86.Build.0 = Debug|x86
 		{1D37DF6B-C7CD-4BFC-B8DE-9500B5C311E4}.Release|x86.ActiveCfg = Release|x86
 		{1D37DF6B-C7CD-4BFC-B8DE-9500B5C311E4}.Release|x86.Build.0 = Release|x86
+		{91F3D187-AC17-49ED-B017-D2A85643DB16}.Debug|x86.ActiveCfg = Debug|x86
+		{91F3D187-AC17-49ED-B017-D2A85643DB16}.Debug|x86.Build.0 = Debug|x86
+		{91F3D187-AC17-49ED-B017-D2A85643DB16}.Release|x86.ActiveCfg = Release|x86
+		{91F3D187-AC17-49ED-B017-D2A85643DB16}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91F3D187-AC17-49ED-B017-D2A85643DB16} = {CB7B84F7-EF9C-4192-ACD4-79AAF6FDADB3}
+		{1D37DF6B-C7CD-4BFC-B8DE-9500B5C311E4} = {5C050BC9-313F-45BF-8D8F-DECF0E91509F}
 	EndGlobalSection
 EndGlobal
